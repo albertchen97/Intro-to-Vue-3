@@ -10,10 +10,17 @@
   </head>
   <body>
     <div id="app">
-      <h1>Product goes here</h1>
+      <!-- The product -->
+      <h1>{{ product }}</h1> 
     </div>
 
     <!-- Import Js -->
     <script src="./main.js"></script>
+
+    <!-- Mount App -->
+    <script>
+      // Mount the Vue app ('app' in main.js) to the div with the id of 'app' ('#' is the ID selector)
+      const mountedApp = app.mount('#app')
+    </script>
   </body>
 </html>
